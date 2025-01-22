@@ -14,4 +14,4 @@ jobs:
 	  uses: actions/upload-artifact@v4
 	  with:
 		name: Upload
-		path:/home/user/graphes/g1.svg
+		path: graphes/g1.svg

@@ -1,11 +1,17 @@
 graph {
-
-node [shape="star" style="filled" fillcolor="aqua"];
+graph [scale="3"];
+node [image="icon_router.png" shape="none" fixedsize="true" width="0.8"];
 edge [fontsize="20pt" color="red"];
 
-B [pos="8,7!"];
-H [pos="8,4!"];
+B [pos="7,8!"];
+H [pos="4,8!"];
 A [pos="11,5!"];
+C [pos="7,4!"];
+D [pos="4,4!"];
+G [pos="2,6!"];
+F [pos="1,2!"];
+E [pos="5,1!"];
+
 H--G [label="14"];
 B--H [label="2"];
 B--G [label="4"];
